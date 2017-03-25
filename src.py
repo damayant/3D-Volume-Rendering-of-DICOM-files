@@ -164,7 +164,7 @@ w2if.SetInput(renWin)
 w2if.Update()
  
 writer = vtk.vtkJPEGWriter()
-writer.SetFileName("assignment3.jpeg")
+writer.SetFileName("screenshot.jpeg")
 writer.SetInputConnection(w2if.GetOutputPort())
 writer.Write()
 #renWin.Modified()
